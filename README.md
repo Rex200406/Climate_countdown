@@ -23,7 +23,7 @@ The climate crisis needs collective action. This project aims to nudge people in
 
 ## Live Site
 
-[Click here to visit the live site](https://Rex200406.github.io/Climate_countdown)
+[Click here to visit the live site]( https://rex200406.github.io/Climate_countdown/)
 
 ## Take the Pledge
 
