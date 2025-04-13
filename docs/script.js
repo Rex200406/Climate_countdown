@@ -1,5 +1,5 @@
 // Set the countdown date
-const countdownDate = new Date(" April 22, 2030 00:00:00").getTime(); // Example: World Environment Day
+const countdownDate = new Date(" April 22, 2026 00:00:00").getTime(); // Example: World Environment Day
 
 const updateCountdown = () => {
   const now = new Date().getTime();
