@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Countdown to Action</title>
+  <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="earth"></div>
+    <h1>Countdown to Climate Action 🌍</h1>
+    <p class="subtitle">Time left to make a difference</p>
+
+    <div class="countdown" id="countdown">
+      <div class="time"><span id="days">00</span><span class="label">Days</span></div>
+      <div class="time"><span id="hours">00</span><span class="label">Hours</span></div>
+      <div class="time"><span id="minutes">00</span><span class="label">Minutes</span></div>
+      <div class="time"><span id="seconds">00</span><span class="label">Seconds</span></div>
+    </div>
+
+    <p class="action-msg">Take action before it's too late!</p>
+    <div class="animation">
+      <div class="tree"></div>
+      <div class="fire"></div>
+  
+  <section class="facts">
+    <h2>Did You Know?</h2>
+    <div class="fact-card">CO2 levels are at their highest in 800,000 years.</div>
+    <div class="fact-card">Arctic sea ice is declining at 13% per decade.</div>
+    <div class="fact-card">Climate change displaces 20 million people annually.</div>
+  </section>
+
+  <section class="actions">
+    <h2>What You Can Do</h2>
+    <div class="action-card">Ride a bicycle or use public transport.</div>
+    <div class="action-card">Plant trees in your community.</div>
+    <div class="action-card">Switch to energy-efficient appliances.</div>
+    <a href="#" class="cta">Take the Pledge</a>
+<br><br><br>
+  </section>
+  </div>
+  </div>
+
+  <script src="script.js" defer></script>
+<script>
+  const pledgeButton = document.querySelector('.cta');
+
+  pledgeButton.addEventListener('click', () => {
+    confetti({
+      particleCount: 150,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
+
+    // Delay to let confetti show before navigating
+    setTimeout(() => {
+      window.open('https://forms.gle/GGNzGouPeh6gU66F6', '_blank');
+    }, 500);
+  });
+</script>
+</body>
+</html>
