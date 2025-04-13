@@ -5,7 +5,7 @@ A mini web design project built for a hackathon focused on climate action awaren
 ## What It Does
 
 - Shows a *live countdown* to Earth Day 2025
-- Features a *confetti animation* to celebrate each pledge
+- Features a *confetti animation* to celebrate the pledge taken
 - Includes a *"Take the Pledge"* button linking to a Google Form
 - Uses *HTML, CSS, JavaScript*
 - Fully responsive and deployed via *GitHub Pages*
